@@ -1,0 +1,619 @@
+@import url('https://fonts.googleapis.com/css?family=Prosto+One');
+/*font-family: 'Prosto One', cursive;*/
+.center{
+    margin: 0 auto; /* Отступ слева и справа */
+}
+.BG__imgHeader{
+    height: 95vh;
+    width: 100%;
+    background-image: url(../img/123.jpg);
+    z-index: -999;
+    background-size: cover;
+}
+.geometria__1{
+    height: 90px;
+    width: 100%;
+    background-color: #EFEFEF;
+}
+.geometria__1::after{
+    content: '';
+    position: absolute;
+    background: inherit;
+    z-index: 11;
+    height: 120px;
+    width: 100%;
+    bottom: 0;
+    transform-origin: right bottom;
+    transform: skewY(-3deg);
+}
+
+.Develop__text{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 35vh;
+    box-shadow: 0 0 50px rgba(0,0,0,0.7);
+    text-shadow: 0.5px 0.5px 0px white, 0 0 3em white; /* Параметры тени */
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #272A2C;
+    padding-top: 10px;
+}
+/*
+.Develop__text p:nth-child(1){
+    color: black;
+}
+*/
+.icon__develop{
+    width: 10vh;
+}
+.epic{
+    width: auto;
+    height: auto;
+    background-color: #EFEFEF;
+    padding-bottom: 30px;
+}
+
+
+
+/* Первые блоки */
+.full__tabl{
+    height: 150px;
+/*    background-color: #EFEFEF;*/
+    z-index: 2;
+}
+.mini__tabl__1{
+    height: 150px;;
+    background-color: #EFEFEF;
+    z-index: 3;
+/*
+    border-right-color: #9A9A9A;
+    border-right-style: solid;
+    border-right-width: 1px;
+*/
+}
+.mini__tabl__1 p:nth-child(1){
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: -5px;
+}
+.p01{
+    color: #FFD800;
+}
+.mini__tabl__1 p:nth-child(2){
+    font-size: 17px;
+}
+.mini__tabl__2{
+    height: 150px;;
+    background-color: #FFD800;
+    z-index: 1;
+}
+.mini__tabl__2:before {
+   content: '';
+   border: 30px solid transparent;
+   border-right: 40px solid #FFD800;
+   position: absolute;
+   left: -55px;
+   top: 40%;
+   margin-top: -10px; 
+   
+}
+
+.mini__tabl__2 p:nth-child(1){
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: -1px;
+    text-align: center;
+    color: white;
+}
+.mini__tabl__2 p:nth-child(2){
+    font-weight: 500;
+    font-size: 30px;
+    margin-bottom: -10px;
+    text-align: center;
+    color: white;
+    line-height: 0.9em;
+}
+/* //Первые блоки */
+
+
+
+/* Вторые блоки */
+.full__tabl2{
+    height: 150px;
+/*    background-color: #EFEFEF;*/
+    z-index: 2;
+    margin-top: 70px;
+}
+.mini__tabl__12{
+    height: 150px;;
+    background-color: #EFEFEF;
+    z-index: 3;
+}
+.mini__tabl__12 p:nth-child(1){
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: -5px;
+}
+.p012{
+    color: #49DEF4;
+}
+.mini__tabl__12 p:nth-child(2){
+    font-size: 17px;
+}
+.mini__tabl__22{
+    height: 150px;;
+    background-color: #49DEF4;
+    z-index: 1;
+/*
+    border-left-color: #9A9A9A;
+    border-left-style: solid;
+    border-left-width: 1px;
+*/
+}
+.mini__tabl__22:before {
+   content: '';
+   border: 30px solid transparent;
+   border-right: 40px solid #49DEF4;
+   position: absolute;
+   right: -55px;
+   top: 40%;
+   margin-top: -10px;
+   -webkit-transform: rotate(180deg);
+   -moz-transform: rotate(180deg);
+   -ms-transform: rotate(180deg);
+   -o-transform: rotate(180deg);
+   transform: rotate(180deg);
+   
+}
+
+.mini__tabl__22 p:nth-child(1){
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: -1px;
+    text-align: center;
+    color: white;
+}
+.mini__tabl__22 p:nth-child(2){
+    font-weight: 500;
+    font-size: 30px;
+    margin-bottom: -10px;
+    text-align: center;
+    color: white;
+    line-height: 0.9em;
+}
+/* //Вторые блоки */
+
+
+
+
+/* Третьи блоки */
+.full__tabl3{
+    height: 150px;
+/*    background-color: #EFEFEF;*/
+    z-index: 2;
+    margin-top: 70px;
+}
+.mini__tabl__13{
+    height: 150px;;
+    background-color: #EFEFEF;
+    z-index: 3;
+/*
+    border-right-color: #9A9A9A;
+    border-right-style: solid;
+    border-right-width: 1px;
+*/
+}
+.mini__tabl__13 p:nth-child(1){
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: -5px;
+}
+.p013{
+    color: #56DE96;
+}
+.mini__tabl__13 p:nth-child(2){
+    font-size: 17px;
+}
+.mini__tabl__23{
+    height: 150px;;
+    background-color: #56DE96;
+    z-index: 1;
+}
+.mini__tabl__23:before {
+   content: '';
+   border: 30px solid transparent;
+   border-right: 40px solid #56DE96;
+   position: absolute;
+   left: -55px;
+   top: 40%;
+   margin-top: -10px; 
+   
+}
+
+.mini__tabl__23 p:nth-child(1){
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: -1px;
+    text-align: center;
+    color: white;
+}
+.mini__tabl__23 p:nth-child(2){
+    font-weight: 500;
+    font-size: 30px;
+    margin-bottom: -10px;
+    text-align: center;
+    color: white;
+    line-height: 0.9em;
+}
+/* //Третьи блоки */
+
+
+
+.epic {
+position: relative;
+z-index: 1;
+}
+
+.epic:after {
+background: inherit;
+bottom: 0;
+content: '';
+display: block;
+height: 50%;
+left: 0;
+position: absolute;
+right: 0;
+transform: skewY(-3deg);
+transform-origin: 100%;
+z-index: -1;
+}
+.znania{
+    width: auto;
+    height: auto;
+    padding-top: 10%;
+}
+.znania__0{
+    width: auto;
+    height: 300px;
+    background-color: #FFFFFF;
+    text-align: center;
+    
+}
+.znania__1{
+    
+}
+.znania__1 p:nth-child(2){
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.znania__1 p:nth-child(3){
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+.znania__1 p:nth-child(4){
+    font-size: 16px;
+}
+.znania__2{
+    
+}
+.znania__2 p:nth-child(2){
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.znania__2 p:nth-child(3){
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+.znania__2 p:nth-child(4){
+    font-size: 16px;
+}
+.znania__3{
+    
+}
+.znania__3 p:nth-child(2){
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.znania__3 p:nth-child(3){
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+.znania__3 p:nth-child(4){
+    font-size: 16px;
+}
+
+.html__coding{
+    width: auto;
+    height: auto;
+    background-image: url(../img/a10db1448ac0a58.png);
+    background-size: cover;
+    margin-top: 100px;
+    padding-bottom: 50px;
+}
+.html__coding {
+    position: relative;
+    z-index: 1;
+    
+}
+
+.html__coding:after {
+    background: inherit;
+    top: 0;
+    content: '';
+    height: 100px;
+    left: 0;
+    position: absolute;
+    right: 0;
+    transform: skewY(-3deg);
+    transform-origin: 0%;
+    z-index: -1;
+    
+}
+.html__coding::before {
+/*    background: inherit;*/
+    background-color: #EFEFEF;
+    bottom:  0;
+    content: '';
+    height: 70px;
+    left: 0;
+    position: absolute;
+    right: 0;
+    transform: skewY(-3deg);
+    transform-origin: 100%;
+    z-index: -1; 
+}
+.programmer__progress{
+    margin-top: 20px;
+}
+.UX{
+    width: 130px; 
+    height: 130px;
+    background: rgba(0,0,0,0);
+    border-radius: 50%;
+    border: 10px solid white; /* Параметры границы */  
+    border-bottom-color: #FDC426; /* Цвет линии справа */
+    border-bottom-style: solid; /* Стиль линии */
+    border-left-color: #FDC426; /* Цвет линии справа */
+    border-left-style: solid; /* Стиль линии */
+}
+.Designing{
+    width: 130px; 
+    height: 130px;
+    background: rgba(0,0,0,0);
+    border-radius: 50%;
+    border: 10px solid white; /* Параметры границы */
+    border-left-color: #FDC426; /* Цвет линии справа */
+    border-left-style: solid; /* Стиль линии */
+    border-top-color: #FDC426; /* Цвет линии справа */
+    border-top-style: solid; /* Стиль линии */
+    border-bottom-color: #FDC426; /* Цвет линии справа */
+    border-bottom-style: solid; /* Стиль линии */
+}
+.Html{
+    width: 130px; 
+    height: 130px;
+    background: rgba(0,0,0,0);
+    border-radius: 50%;
+    border: 10px solid #FDC426; /* Параметры границы */
+}
+.Coding{
+    width: 130px; 
+    height: 130px;
+    background: rgba(0,0,0,0);
+    border-radius: 50%;
+    border: 10px solid white; /* Параметры границы */
+    border-right-color: #FDC426; /* Цвет линии справа */
+    border-right-style: solid; /* Стиль линии */
+    border-top-color: #FDC426; /* Цвет линии справа */
+    border-top-style: solid; /* Стиль линии */
+}
+.text__progress__projent{
+    text-align: center;
+    margin-top: 30%;
+    color: white;
+    font-weight: 700;
+    font-size: 25px;
+}
+.text__progress__name{
+    text-align: center;
+    margin-top: 10px;
+    color: white;
+    font-weight: 500;
+    font-size: 17px;
+}
+.jobs{
+    width: auto;
+    height: auto;
+    background-color: #EFEFEF;
+    
+}
+.jobs__work{
+    height: auto;
+    margin-top: 100px;
+    background-color: #EFEFEF;
+}
+.work__1{
+    height: 200px;
+    background-image: url(../img/portfolio/work1.jpg);
+    background-size: cover;
+    z-index: 11;
+    border-color: #47484B;
+    border-style: solid;
+    border-width: 5px;
+}
+.work__1:hover{
+	transform: scale(1.15, 1.15);
+    transition: 0.4s;
+}
+.work__2{
+    height: 300px;
+    background-image: url(../img/portfolio/work2.png);
+    background-size: cover;
+    z-index: 11; 
+    border-color: #47484B;
+    border-style: solid;
+    border-width: 5px;
+}
+.work__2:hover{
+	transform: scale(1.15, 1.15);
+    transition: 0.4s;
+}
+.work__3{
+    height: 400px;
+    background-image: url(../img/portfolio/work5.jpg);
+    background-size: cover;
+    z-index: 11; 
+    border-color: #47484B;
+    border-style: solid;
+    border-width: 5px;
+}
+.work__3:hover{
+	transform: scale(1.15, 1.15);
+    transition: 0.4s;
+}
+.work__4{
+    height: 400px;
+    background-image: url(../img/portfolio/work4.png);
+    background-size: cover;
+    z-index: 11; 
+    border-color: #47484B;
+    border-style: solid;
+    border-width: 5px;
+}
+.work__4:hover{
+	transform: scale(1.15, 1.15);
+    transition: 0.4s;
+}
+.work__5{
+    height: 300px;
+    background-image: url(../img/portfolio/work3.jpg);
+    background-size: cover;
+    z-index: 11; 
+    border-color: #47484B;
+    border-style: solid;
+    border-width: 5px;
+}
+.work__5:hover{
+	transform: scale(1.15, 1.15);
+    transition: 0.4s;
+}
+.work__6{
+    height: 200px;
+    background-image: url(../img/portfolio/work6.png);
+    background-size: cover;
+    z-index: 11; 
+    border-color: #47484B;
+    border-style: solid;
+    border-width: 5px;
+}
+.work__6:hover{
+	transform: scale(1.15, 1.15);
+    transition: 0.4s;
+}
+.pree__work{
+    height: auto;
+    margin-left: 0px;
+}
+.work__job_social{
+   margin-bottom: 20px;
+}
+.text__work__job_a{
+    text-align: center;
+    padding-bottom: 20px;
+}
+.jobs::after {
+/*    background: inherit;*/
+    background-color: #EFEFEF;
+    top: 1;
+    content: '';
+    height: 100px;
+    left: 0;
+    position: absolute;
+    right: 0;
+    transform: skewY(-3deg);
+    transform-origin: 0%;
+    z-index: 1; 
+}
+.service{
+    background-image: url(../img/84440.jpg);
+    background-size: cover;
+    height: auto;
+    width: auto;
+    z-index: -111;
+    padding-bottom: 60px;
+}
+.service__abv{
+    height: 200px;
+    margin-top: 100px;
+}
+.service__contacts{
+    height: auto;
+}
+.service__mail{
+    height: auto;
+}
+.text__service__developNAme{
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    font-weight: 900;
+    margin-top: 20px;
+}
+.text__service__developMen{
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+}
+.number__text{
+    color: white;
+    font-size: 15px;
+    margin-top: 20px;
+    text-align: center;
+}
+.mail__text{
+    color: white;
+    font-size: 15px;
+    text-align: center;
+}
+.mm__icon {
+    margin-top: 50px;
+    width: 30px; 
+    height: 30px;
+    background: rgba(0,0,0,0);
+    border-radius: 50%;
+    border: 0px solid white;
+}
+.fa{
+    margin-left: -10px;
+    color: white;
+}
+.fa:hover{
+    margin-left: -10px;
+    color: aqua;
+}
+.service__abvasdfas{
+    height: 200px;
+    margin-top: 100px;
+}
+.kkafdasdf{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    text-align: center;
+    text-shadow: 0.5px 0.5px 0px white; /* Параметры тени */
+    color: #272A2C;
+    margin-top: -20px;
+}

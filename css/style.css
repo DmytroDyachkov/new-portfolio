@@ -1,0 +1,66 @@
+body {
+  font-size: 14px;
+}
+/* на sm */
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+/* на md */
+@media (min-width: 992px) {
+  html {
+    font-size: 18px;
+  }
+}
+/* на lg */
+@media (min-width: 1200px) {
+  html {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .full__tabl3 {
+    margin-top: 140px;;
+  }
+    .full__tabl {
+    margin-top: 190px;;
+  }
+    .full__tabl2 {
+    margin-top: 150px;;
+  }
+    .geometria__1{
+    height:0px;
+    width: 100%;
+    background-color: #EFEFEF;
+  }
+    .geometria__1::after{
+    content: '';
+    position: absolute;
+    background: inherit;
+    z-index: 1;
+    height: 100px;
+    width: 100%;
+    bottom: 0;
+    transform-origin: right bottom;
+    transform: skewY(-3deg);
+    margin-bottom: 10px;
+  }
+    .epic{
+    width: auto;
+    height: 100%;
+    background-color: #EFEFEF;
+    padding-bottom: 210px;
+   }
+    .mini__tabl__22:before {
+    display: none;
+   }
+/*
+    .develop__service{
+        height: 100%;
+        width: auto;
+        
+    }
+*/
+}
